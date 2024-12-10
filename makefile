@@ -1,7 +1,7 @@
 CC = mpicc
 CFLAGS = -std=c99
 TARGET = dbscan
-SRC = dbscan3.c
+SRC = dbscan.c
 OUTPUT = results.txt
 PROCESSES = 1 2 4 8 16 32 64
 RUNS = 3
